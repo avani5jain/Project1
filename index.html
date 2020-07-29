@@ -1,93 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>ProGrad</title>
-  </head>
 
-  <body>
-    <nav></nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>ProGrad</title>
+</head>
+
+<body>
+  <nav>
     <ul>
-      <li>Avani Jain</li>
+      <li class="logo-text">Avani Jain</li>
       <li>
         <ul>
-          <li>HOME</li>
-          <li>BIO</li>
-          <li>PORTFOLIO</li>
-          <li>SKILLS</li>
-          <li>CONTACT</li>
+          <li><a href="#home" class="nav-link">HOME</a></li>
+          <li><a href="#bio" class="nav-link">BIO</a></li>
+          <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+          <li><a href="#skills" class="nav-link">SKILLS</a></li>
+          <li><a href="#contact" class="nav-link link-button">CONTACT</a></li>
         </ul>
       </li>
     </ul>
-    <header>
-      <div>
-        <p>
-          I BELIEVE IN
-        </p>
-        <h1>EAT (); SLEEP (); CODE (); REPEAT ();</h1>
-      </div>
-    </header>
-    <section>
-      <img src="./assets/Pic1.jpg" alt="photo" />
+  </nav>
+  <header id="home">
+    <div>
+      <p>
+        I BELIEVE IN
+      </p>
+      <h1>EAT (); SLEEP (); CODE (); REPEAT ();</h1>
+    </div>
+  </header>
+  <section id="bio">
+    <img src="./assets/Pic1.jpg" alt="photo" />
+    <article>
+      <h2>Avani Jain</h2>
+      <p>
+        I am a bachelor of computer science and engineering. Currently I am
+        seeking an organization where my skills will be enhanced.
+        <span class="break"></span>
+        My areas of interest are Data Analytics and Creative Writing.
+      </p>
+      <a href="#" class="link-button">Download My Resume</a>
+    </article>
+  </section>
+  <section id="protfolio">
+    <h3>PORTFOLIO</h3>
+    <p>Some of my best projects so far.</p>
+    <hr />
+    <div>
       <article>
-        <h2>Avani Jain</h2>
-        <p>
-          I am a bachelor of computer science and engineering. Currently I am
-          seeking an organization where my skills will be enhanced.<br /><br />
-          My areas of interest are Data Analytics and Creative Writing.
-        </p>
-        <a href="#">Download My Resume</a>
+        <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="Image 1" />
+        <h4>PERSONAL BLOG</h4>
+        <p>My First Project</p>
       </article>
-    </section>
-    <section>
-      <h3>PORTFOLIO</h3>
-      <p>Some of my best projects so far.</p>
-      <hr />
-      <div>
-        <article>
-          <img
-            src="https://i1.faceprep.in/ProGrad/Coding-icon.svg"
-            alt="Image 1"
-          />
-          <h4>PERSONAL BLOG</h4>
-          <p>My First Project</p>
-        </article>
-        <article>
-          <img
-            src="https://i1.faceprep.in/ProGrad/Coding-icon.svg"
-            alt="Image 2"
-          />
-          <h4>TIC TAC TOE</h4>
-          <p>My Second Project</p>
-        </article>
-        <article>
-          <img
-            src="https://i1.faceprep.in/ProGrad/Coding-icon.svg"
-            alt="Image 3"
-          />
-          <h4>TIME TABLE GENERATOR</h4>
-          <p>My Third Project</p>
-        </article>
-      </div>
-    </section>
-    <section>
-      <h3>SKILLS</h3>
+      <article>
+        <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="Image 2" />
+        <h4>TIC TAC TOE</h4>
+        <p>My Second Project</p>
+      </article>
+      <article>
+        <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="Image 3" />
+        <h4>TIME TABLE GENERATOR</h4>
+        <p>My Third Project</p>
+      </article>
+    </div>
+  </section>
+  <section id="skills">
+    <h3>SKILLS</h3>
+    <div id="skills-container">
       <div>
         <h4>TECHNICAL SKILLS</h4>
         <div>
           <ul>
             <li>HTML</li>
-            <li><progress></progress></li>
+            <li><progress value="95" max="100"></progress></li>
             <li>CSS</li>
-            <li><progress></progress></li>
+            <li><progress value="95" max="100"></progress></li>
             <li>JS</li>
-            <li><progress> </progress></li>
-            <li>ANGULAR</li>
-            <li><progress> </progress></li>
-            <li>JAVA</li>
-            <li><progress> </progress></li>
+            <li><progress value="95" max="100"> </progress></li>
+            <li>SQL</li>
+            <li><progress value="95" max="100"> </progress></li>
+            <li>PYTHON</li>
+            <li><progress value="85" max="100"> </progress></li>
           </ul>
         </div>
       </div>
@@ -96,26 +91,26 @@
         <div>
           <ul>
             <li>ENGLISH</li>
-            <li><progress> </progress></li>
+            <li><progress value="95" max="100"> </progress></li>
             <li>HINDI</li>
-            <li><progress> </progress></li>
-            <li>TAMIL</li>
-            <li><progress> </progress></li>
-            <li>TELUGU</li>
-            <li><progress> </progress></li>
+            <li><progress value="95" max="100"> </progress></li>
           </ul>
         </div>
       </div>
-    </section>
+    </div>
+    </div>
 
-    <footer>
-      <h3>CONTACT</h3>
-      <form action="#">
-        <input type="text" placeholder="ENTER YOUR NAME" />
-        <input type="text" placeholder="ENTER YOUR EMAIL" />
-        <input type="text" placeholder="ENTER YOUR MESSAGE" />
-        <input type="submit" value="Send Message" />
-      </form>
-    </footer>
-  </body>
+  </section>
+
+  <footer id="contact">
+    <h3>CONTACT</h3>
+    <form action="#">
+      <input class="input" type="text" placeholder="ENTER YOUR NAME" />
+      <input class="input" type="text" placeholder="ENTER YOUR EMAIL" />
+      <input class="input" type="text" placeholder="ENTER YOUR MESSAGE" />
+      <input class="input" type="submit" class="link-button" value="Send Message" />
+    </form>
+  </footer>
+</body>
+
 </html>
