@@ -2,7 +2,7 @@ const $submitbutton = document.getElementById("submit");
 const $message = document.getElementById("message");
 const $lives = document.getElementById("lives");
 
-var guess = Math.round(Math.random() * 100);
+var guessNumber = Math.round(Math.random() * 100);
 var lives = 10;
 var message;
 $submitbutton.onclick = () => {
