@@ -201,7 +201,7 @@ hr {
 progress [value] {
   height: 10px;
   width: 350px;
-  ~webkit-appearance: none;
+  /*~webkit-appearance: none;*/
 }
 
 progress [value]:~webkit-progress-bar {
